@@ -1,0 +1,12 @@
+library(readr)
+setwd("C:/Users/mithe/Desktop/New folder")
+stock_data <- read.csv("sample_stock_data.csv")
+str(stock_data)
+head(stock_data)
+summary(stock_data)
+names(stock_data) <- c("date", "open", "high", "low", "close", "volume")
+stock_data$date <- as.Date(stock_data$date, format="%y-%m-%d")
+stock_data <- na.omit(stock_data)
+stock_data$open <- as.numeric(stock_data$open)
+stock_data$close <- as.numeric(stock_data$close)
+stock_data <- stock_data[order(stock_data$date)]
