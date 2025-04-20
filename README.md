@@ -3,6 +3,7 @@ so i have made a list of 50 sample projects covering from basics to the required
 each sample will be working on different topics regarding quantitaitve analysis , econometric models with touch of financial analysis of stocks 
 here are the lits of 50 samples we will be working on :
 - Beginner Projects (1–10): Core R + Data Handling
+
 Import and clean CSV of stock prices 
 
 Plot stock closing prices using ggplot2
