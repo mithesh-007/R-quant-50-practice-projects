@@ -25,6 +25,7 @@ Create an interactive plot with plotly
 Build a static dashboard layout with shiny
 
 -📊 Time Series & Exploratory Data Analysis (11–20)
+
 Time series decomposition of a stock index (trend/seasonal/residual)
 
 Plot rolling mean and volatility of a stock
@@ -46,6 +47,7 @@ Model seasonality in monthly returns
 Create a boxplot of monthly returns by year
 
 📈 Portfolio Analysis & Optimization (21–30)
+
 Construct an equal-weighted portfolio of 5 stocks
 
 Compute cumulative portfolio returns
@@ -67,6 +69,7 @@ Compare different portfolio optimization strategies
 Add rebalancing logic to portfolio returns
 
 📉 Risk Management & Modeling (31–40)
+
 Compute historical Value at Risk (VaR)
 
 Calculate conditional VaR (CVaR)
@@ -88,6 +91,7 @@ Compare realized vs. forecasted volatility
 Stress test a portfolio under market shock scenarios
 
 🔍 Factor Models & Regression (41–45)
+
 Estimate CAPM alpha and beta for a stock
 
 Regress stock returns on Fama-French 3-Factors
@@ -99,6 +103,7 @@ Apply PCA to yield curve or stock returns
 Conduct factor attribution for a portfolio
 
 🤖 Trading Strategy Backtesting (46–50)
+
 Create and backtest a moving average crossover strategy
 
 Build a momentum strategy using past return ranking
