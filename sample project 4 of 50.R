@@ -14,9 +14,9 @@ stock_data = stock_data %>%
 
                 
 head(stock_data, 10)
-
+#generate summary statistics
 summary(stock_data)
-
+#more summary stats
 install.packages("e1071")
 library(e1071)
 mean(stock_data$Daily_return, na.rm=TRUE)
@@ -26,6 +26,6 @@ min(stock_data$Daily_return, na.rm=TRUE)
 max(stock_data$Daily_return, na.rm=TRUE)
 kurtosis(stock_data$Daily_return, na.rm=TRUE)
 skewness(stock_data$Daily_return, na.rm=TRUE)
-
+#financial summary stats
 return_xts <- na.omit(ClCl(AAPL))
 table.Stats(return_xts)
